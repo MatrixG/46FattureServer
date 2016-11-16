@@ -36,8 +36,8 @@ public class FatturaDAO {
 
 	public Fattura[] getTutteFatture() {
 		List<Fattura> out = new ArrayList<Fattura>(fatture.values());
-		Fattura[] outFatture = (Fattura[]) out.toArray();
-		return outFatture;
+		Fattura[] outFatture = new Fattura[out.size()];
+		return out.toArray(outFatture);
 	}
 
 	public Fattura getFatturaConCodiceCliente(String id) {
