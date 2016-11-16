@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/it/alfasoft/model/Fattura.java=UTF-8
+encoding//src/it/alfasoft/webService/ServizioFattura.java=UTF-8
+encoding//src/it/alfasoft/webService/ServizioFatturaService.java=UTF-8
+encoding//src/it/alfasoft/webService/ServizioFatturaServiceLocator.java=UTF-8
+encoding//src/it/alfasoft/webService/ServizioFatturaSoapBindingStub.java=UTF-8
